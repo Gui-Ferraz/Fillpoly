@@ -20,7 +20,7 @@ Disponível em: https://github.com/Gui-Ferraz/Fillpoly
 
 ## SFML
 
-Os arquivos de desenvolvimento da SFML 3.1.0 ('include' e 'lib')
+Os arquivos de desenvolvimento da SFML 3.1.0 ('include')
 estão incluídos na pasta 'SFML' do projeto.
 
 As DLLs necessárias para execução devem ser obtidas a partir
