@@ -1,0 +1,29 @@
+# Visual Studio
+.vs
+.vcxproj.user
+.vcxproj.users
+
+# Build outputs
+x64
+x86
+Debug
+Release
+
+# Compiled binaries
+.exe
+.dll
+
+# Debug  compiler generated files
+.pdb
+.ilk
+.obj
+.idb
+.ipdb
+.iobj
+
+# Notes  personal files
+notes
+
+# Visual Studio temporary files
+.suo
+.user
