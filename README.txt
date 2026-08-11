@@ -29,8 +29,26 @@ do executável.
 
 Link de download: https://www.sfml-dev.org/download/sfml/3.1.0/
 Plataforma: 64-bit Visual C++ 17 (2022)
+Extraia os arquivos de 'SFML-3.1.0-windows-vc17-64-bit.zip'
 
-- Extraia os arquivos de 'SFML-3.1.0-windows-vc17-64-bit.zip'
+Antes da compilação:
+- Copie a pasta 'SFML-3.1.0\lib' e cole no projeto
+'Fillpoly\Fillpoly\SFML\':
+
+Fillpoly/
+│
+├── ...
+│
+└── Fillpoly/
+    │
+    ├── ...
+    │
+    └── SFML/
+        ├── include/
+        │
+        └── lib/
+
+Após a compilação:
 - Vá até o diretório SFML-3.1.0\bin\
 - Caso tenha compilado em modo Release, copie as DLLs:
 	sfml-graphics-3.dll
@@ -89,7 +107,8 @@ Fillpoly/
     │       ├── sfml-system.lib
     │       ├── sfml-system-d.lib
     │       ├── sfml-window.lib
-    │       └── sfml-window-d.lib
+    │       ├── sfml-window-d.lib
+    │       └── ...
     │
     ├── Color.hpp
     ├── Fillpoly.hpp
