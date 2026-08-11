@@ -1,7 +1,6 @@
 # Visual Studio
 .vs
-.vcxproj.user
-.vcxproj.users
+*.vcxproj.user
 
 # Build outputs
 x64
