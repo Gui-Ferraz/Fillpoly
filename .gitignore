@@ -9,20 +9,20 @@ Debug
 Release
 
 # Compiled binaries
-.exe
-.dll
+*.exe
+*.dll
 
 # Debug  compiler generated files
-.pdb
-.ilk
-.obj
-.idb
-.ipdb
-.iobj
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.ipdb
+*.iobj
 
 # Notes  personal files
 notes
 
 # Visual Studio temporary files
-.suo
-.user
+*.suo
+*.user
